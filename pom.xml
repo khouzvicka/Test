@@ -15,9 +15,8 @@
     </properties>
 
     <scm>
-        <connection>git@github.com:khouzvicka/Test.git</connection>
-        <url>scm:git:git@github.com:khouzvicka/Test.git</url>
         <developerConnection>scm:git:git@github.com:khouzvicka/Test.git</developerConnection>
+        <url>https://github.com/khouzvicka/Test</url>
     </scm>
 
     <dependencies>
