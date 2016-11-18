@@ -14,6 +14,12 @@
         <logback.version>1.1.2</logback.version>
     </properties>
 
+    <scm>
+        <connection>git@github.com:khouzvicka/Test.git</connection>
+        <url>scm:git:git@github.com:khouzvicka/Test.git</url>
+        <developerConnection>scm:git:git@github.com:khouzvicka/Test.git</developerConnection>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>ch.qos.logback</groupId>
@@ -50,5 +56,11 @@
             </plugin>
         </plugins>
     </build>
+
+    <dependency>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+    </dependency>
 
 </project>
