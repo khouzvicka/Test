@@ -3,7 +3,7 @@
 
     <groupId>Test</groupId>
     <artifactId>Test</artifactId>
-    <version>1.7</version>
+    <version>1.8-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>TestName</name>
@@ -16,7 +16,7 @@
     <scm>
         <developerConnection>scm:git:git@github.com:khouzvicka/Test.git</developerConnection>
         <url>https://github.com/khouzvicka/Test</url>
-      <tag>Test-1.7</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <dependencies>
